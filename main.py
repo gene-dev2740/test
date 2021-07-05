@@ -1,6 +1,8 @@
 from flask import Flask
+import sqlite3
 
 app = Flask(__name__)
+con = sqlite3.connect("sample.db")
 
 @app.route("/")
 def index():
