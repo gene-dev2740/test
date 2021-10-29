@@ -1,9 +1,81 @@
 <html>
-    <head>
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-        <script src="index.js"></script>
-    </head>
-    <body id="screen_body">
 
-    </body>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+<body id="screen_body">
+    <div class="container">
+        <div class="row m-1">
+            <div class="col-10">
+                <textarea id="view_area" cols="20" rows="4" class="form-control"></textarea>
+                <textarea id="view_code" cols="20" rows="4" class="form-control"></textarea>
+                <div id="div_view"></div>
+            </div>
+
+            <div class="col">
+                <button type="button" id="btn_clear" class="btn btn-primary">クリア</button>
+            </div>
+        </div>
+        <div class="row m-1">
+            <div class="col">
+                <div class="table table-hover">
+                    <div class="table-row">
+                        <div class="table-cell border">
+                            test
+                        </div>
+                        <div class="table-cell border">
+                            test2
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-1">
+            <div class="col">
+                <table class="table table-hover table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>title1</th>
+                            <th>title2</th>
+                            <th>title3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>col1-1</td>
+                            <td>col1-2</td>
+                            <td>col1-3</td>
+                        </tr>
+                        <tr>
+                            <td>col2-1</td>
+                            <td>col2-2</td>
+                            <td>col2-3</td>
+                        </tr>
+                        <tr>
+                            <td>col3-1</td>
+                            <td>col3-2</td>
+                            <td>col3-3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
 </html>
