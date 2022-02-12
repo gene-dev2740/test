@@ -8,5 +8,9 @@ con = sqlite3.connect("sample.db")
 def index():
     return "Hello Flask"
 
+@app.route("/fovicon.ico")
+def favicon():
+    return ""
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
